@@ -3,7 +3,7 @@
  # Why we use useRef in react?
  The useRef Hook allows us to create mutable variables in functional components. It's useful for accessing DOM nodes/React elements, and to store mutable variables without triggering a re-render.<br><br>
  The useRef Hook is a function that returns a mutable ref object whose .current property is initialized with the passed argument (initialValue). The returned object will persist for the full lifetime of the component.<br><br>
- **Syntax**:
+: **Syntax**
  ```
  const refContainer = useRef(initialValue);
  ```

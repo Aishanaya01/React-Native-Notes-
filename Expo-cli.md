@@ -1,9 +1,28 @@
-***1.What is Expo cli***<br><br> 
-“Expo is a free and open source toolchain built around React Native to help you build native iOS and Android projects using JavaScript and React.”<br>
-Expo is becoming an ecosystem of its own, and is made up of five interconnected tools:<br>
-* Expo CLI: The command-line interface for Expo. We’ll be using the Expo CLI to create, build, and serve apps. A list of all the commands supported by the CLI can be found in the official documentation at the following link:<br>
-  https://docs.expo.io/versions/latest/workflow/expo-cli<br>
-  * Expo developer tools: This is a browser-based tool that automatically runs whenever an Expo app is started from the Terminal via the expo start command. It provides active logs for your in-development app, and quick access to running the app locally and sharing the app with other developers.<br>
-  *Expo Client: An app for Android and iOS. This app allows you to run your React Native project within the Expo app on the device, without the need for installing it. This allows developers to hot reload on a real device, or share development code with anyone else without the need for installing it.<br>
-* Expo Snack: Hosted at https://snack.expo.io, this web app allows you to work on a React Native app in the browser, with a live preview of the code you’re working on. If you’ve ever used CodePen or JSFiddle, Snack is the same concept applied to React Native applications.<br>
-* Expo SDK: This is the SDK that houses a wonderful collection of JavaScript APIs that provide Native functionality not found in the base React Native package, including working with the device’s accelerometer, camera, notifications, geolocation, and many others. This SDK comes baked in with every new project created with Expo.<br>
+## 1.What is Expo cli***<br><br> 
+“Expo is a free and open source toolchain built around React Native to help you build native iOS and Android projects using JavaScript and React.”<br><br>
+## Expo CLI <br><br>
+After finishing up with the installation, we will use npm to install the Expo CLI command line utility:<br>
+```
+npm install -g expo-cli
+```
+It will install all the required packages for Expo CLI.<br>
+
+Run the Following Commands to create a new React Native Project<br>
+```
+expo init [FirstProject]
+```
+Then after completing the installation it will guide you the next command and requirements how you can start. Otherwise Follow this.<br>
+```
+cd [FirstProject]
+```
+```
+expo start
+```
+This will start a localhost server of expo Cli through with you can start the Emulator(both for IOS or Android).<br>
+
+You can see you application on a remote device also. Al you need is to Download an Application named Expo Go from apple store or play store on the device you want to see your application<br>
+# #Online approach(snack)
+As a developer you should know all the way how you can implement the frameworks. So, if you don't want to install any of these just [Click-Here](https://snack.expo.io/) and you can start coding your 1st application.<br>
+
+Its a good idea to login in Expo application so that it can keep a track of your previous and present Projects.<br>
+
